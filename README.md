@@ -33,3 +33,16 @@ Libraries:
    | transform |         |         |
    | save      |         |         |
    |           |         |         |
+
+    - `ndim`: dimension of array
+    - `shape`: structure of array rows and column
+    - `size`: numbers of data
+    - `dtype`: data type of array
+
+2. Pandas
+  - there are similar statistic functions in Pandas 
+   --> Pandas has more usability
+  - Data structure
+    a. Series
+    b. DataFrame (variable name= df): Pandas's basic data structure (2-dimension table), Similar structure as Excel, CSV, DB table
+
