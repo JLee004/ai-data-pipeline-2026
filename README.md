@@ -46,5 +46,30 @@ Libraries:
 - there are similar statistic functions in Pandas
   --> Pandas has more usability
 - Data structure
-  a. Series
+  a. Series (one column), (multiple series = dataframe)
   b. DataFrame (variable name= df): Pandas's basic data structure (2-dimension table), Similar structure as Excel, CSV, DB table
+ [See](./chapter01/Pandas.ipynb)  *ipynb is JSON file
+
+- Pandas 속성 & functions
+  1. df = pd.DataFrame('file name')
+  2. df.head() & df.tail()
+  3. df.shape()
+  4. df.column()
+  5. df.info()
+  6. df.describe()
+  7. df.loc['number or string'] vs. df.iloc['number or string']
+  => loc considers the number as label, and iloc considers the number index!
+  [see](/chapter02.ipynb)
+  8. 
+  9. df[' '].unique()
+
+- Handling Missing Data
+  1. Delete every rows with Null value: 
+  2. Delete rows by filtering: df_dropna(subset)
+  3. Replace with Average: filter with condition first then fill in
+
+
+  <Pandas tips>
+  - empty string vs. null/Nan => consider as different values, so change the empty string to Null or Nan value
+
+  - Email pattern(format Type) = r"^[\w\.-]+@[\w\.-]+\.\w+$"

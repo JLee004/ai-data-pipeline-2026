@@ -1,0 +1,9 @@
+,name,age,major,score,pass
+0,a,20,Data Analysis,85,True
+1,b,21,Web Development,90,True
+2,c,22,AI,95,True
+3,d,23,Embedded Systems,80,False
+4,e,30,Data Analysis,75,False
+5,f,25,AI,95,True
+6,z,24,Web Development,88,True
+7,x,22,AI,82,
