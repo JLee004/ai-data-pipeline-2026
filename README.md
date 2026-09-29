@@ -22,27 +22,29 @@ Libraries:
 ### 
 
 1. NumPy
- - NumPy is faster than python List
- - vectorized operation
+
+- NumPy is faster than python List
+- vectorized operation
 
 
-   | phase     | meaning | example |
-   | :-------- | ------- | ------- |
-   | collect   |         |         |
-   | refine    |         |         |
-   | transform |         |         |
-   | save      |         |         |
-   |           |         |         |
+  | phase       | meaning                                | example                             |
+  | :---------- | -------------------------------------- | ----------------------------------- |
+  | collect     | retrieve data (web scrapping)          | read CSV/excel, DB select, API      |
+  | refine      | modify wrong data                      | remove missing and replicates       |
+  | transform   | preprocessing for analysis             | add calculation column, change date |
+  | save        | saving the result                      | CSV, Excel, DB save                 |
+  | utilization | ready for data analysis, start service | EDA, Dashboard, report              |
 
-    - `ndim`: dimension of array
-    - `shape`: structure of array rows and column
-    - `size`: numbers of data
-    - `dtype`: data type of array
+
+  - `ndim`: dimension of array
+  - `shape`: structure of array rows and column
+  - `size`: numbers of data
+  - `dtype`: data type of array
 
 2. Pandas
-  - there are similar statistic functions in Pandas 
-   --> Pandas has more usability
-  - Data structure
-    a. Series
-    b. DataFrame (variable name= df): Pandas's basic data structure (2-dimension table), Similar structure as Excel, CSV, DB table
 
+- there are similar statistic functions in Pandas
+  --> Pandas has more usability
+- Data structure
+  a. Series
+  b. DataFrame (variable name= df): Pandas's basic data structure (2-dimension table), Similar structure as Excel, CSV, DB table
