@@ -19,13 +19,10 @@ Libraries:
 6. Folium - map visualization
 7. BeautifulSoup - static data collection
 
-### 
-
 1. NumPy
 
 - NumPy is faster than python List
 - vectorized operation
-
 
   | phase       | meaning                                | example                             |
   | :---------- | -------------------------------------- | ----------------------------------- |
@@ -48,9 +45,9 @@ Libraries:
 - Data structure
   a. Series (one column), (multiple series = dataframe)
   b. DataFrame (variable name= df): Pandas's basic data structure (2-dimension table), Similar structure as Excel, CSV, DB table
- [See](./chapter01/Pandas.ipynb)  *ipynb is JSON file
-
+  [See](./chapter01/Pandas.ipynb)  *ipynb is JSON file
 - Pandas 속성 & functions
+
   1. df = pd.DataFrame('file name')
   2. df.head() & df.tail()
   3. df.shape()
@@ -58,21 +55,30 @@ Libraries:
   5. df.info()
   6. df.describe()
   7. df.loc['number or string'] vs. df.iloc['number or string']
-  => loc considers the number as label, and iloc considers the number index!
-  [see](/chapter02.ipynb)
+     => loc considers the number as label, and iloc considers the number index!
+     [see](/chapter02.ipynb)
   8. 
   9. df[' '].unique()
-
 - Handling Missing Data
-  1. Delete every rows with Null value: 
+
+  1. Delete every rows with Null value:
   2. Delete rows by filtering: df_dropna(subset)
   3. Replace with Average: filter with condition first then fill in
 
-- 
+3. Visualization - Matplotlib
+   [see](/chapter03/visualization.ipynb)
 
+- EDA (exploratory data analysis): 탐색적 데이터 분석 시 사용
+- Types o
 
-  <Pandas tips>
+4. Selenium
+
+- scrapping, openAPI
+- `HTML` `CSS` `JS`... required
+
+<Pandas tips>
   - empty string vs. null/Nan => consider as different values, so change the empty string to Null or Nan value
 
-  - Email pattern(format Type) = r"^[\w\.-]+@[\w\.-]+\.\w+$"
+- Email pattern(format Type) = r"^[\w\.-]+@[\w\.-]+\.\w+$"
 
+![1790753331107](image/README/1790753331107.png)
