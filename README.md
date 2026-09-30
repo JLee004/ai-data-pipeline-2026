@@ -68,8 +68,11 @@ Libraries:
   2. Delete rows by filtering: df_dropna(subset)
   3. Replace with Average: filter with condition first then fill in
 
+- 
+
 
   <Pandas tips>
   - empty string vs. null/Nan => consider as different values, so change the empty string to Null or Nan value
 
   - Email pattern(format Type) = r"^[\w\.-]+@[\w\.-]+\.\w+$"
+
