@@ -18,8 +18,7 @@ Libraries:
 5. Selenium - automatic data collection
 6. Folium - map visualization
 7. BeautifulSoup - static data collection
-
-1. NumPy
+8. NumPy
 
 - NumPy is faster than python List
 - vectorized operation
@@ -65,20 +64,21 @@ Libraries:
   2. Delete rows by filtering: df_dropna(subset)
   3. Replace with Average: filter with condition first then fill in
 
-3. Visualization - Matplotlib
+3. Visualization - Matplotlib, Seaborn
    [see](/chapter03/visualization.ipynb)
 
 - EDA (exploratory data analysis): 탐색적 데이터 분석 시 사용
-- Types o
 
 4. Selenium
-
 - scrapping, openAPI
 - `HTML` `CSS` `JS`... required
+  - In CSS, 속성명에만 신경쓰면됨. class="class_name" 등
+  - js 사용하면 동적 구현 (html보다)
+  - 
+
+TIPS:
 
 <Pandas tips>
   - empty string vs. null/Nan => consider as different values, so change the empty string to Null or Nan value
 
 - Email pattern(format Type) = r"^[\w\.-]+@[\w\.-]+\.\w+$"
-
-![1790753331107](image/README/1790753331107.png)
