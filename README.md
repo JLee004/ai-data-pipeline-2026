@@ -70,11 +70,14 @@ Libraries:
 - EDA (exploratory data analysis): 탐색적 데이터 분석 시 사용
 
 4. Selenium
+
 - scrapping, openAPI
 - `HTML` `CSS` `JS`... required
   - In CSS, 속성명에만 신경쓰면됨. class="class_name" 등
   - js 사용하면 동적 구현 (html보다)
-  - 
+
+Program auto-scheduling
+
 
 TIPS:
 
